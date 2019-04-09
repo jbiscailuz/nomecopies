@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.typekit.net/tbm0zmm.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>no me copies</title>
+</head>
+
+<body>
+
+    <main class="page">
+    <!-- TITLE -->
+    <div class="title">
+        <a href="../index.html">
+        <h1>NO ME</h1>
+        <h1 id="segundo">COPIES</h1>
+        </a>
+    </div>
+
+    <!-- TITLE 2 -->
+    <div class="title2">
+        <h2>THIS IS THE DONATE</h2>
+    </div>
+
+    <!-- MENU -->
+    <nav>
+        <a href="../who/index.html">1. WHO</a>
+        <a href="../about/index.html">2. ABOUT</a>
+        <a href="../lookbook/index.html">2. LOOKBOOK</a>
+        <a href="../tags/index.html">3. TAGS</a>
+        <a id="active" href="">4. DONATE</a>
+    </nav>
+
+    </main>
+
+    <main class="actualPage">
+
+
+        <div class="donate">
+            <div class="donateP">
+                <form method="post" action="send_mail.php">
+                    <p>
+                        <label>Name
+                            <input type="text" name="first_name" required>
+                        </label>
+                    </p>
+                    <br></br>
+                    <p>
+                        <label>Email
+                            <input type="email" name="email_address">
+                        </label>
+                    </p>
+                    <br></br>
+                     <p>
+                         <label>Weight
+                             <input type="number" name="weight"  required>
+                           lbs.
+                         </label>
+                     </p>
+                     <br></br>
+                     <p>
+                         <label>Date
+                             <input type="date" name="date_mail">
+                         </label>
+                     </p>
+                     <br></br>
+                    <p>
+                        <input type="checkbox" name="package1" value="envelope"> Envelope
+                        <br></br>
+                        <input type="checkbox" name="package2" value="smallBox"> Small Box (8"x8")
+                        <br><br>
+                    </p>
+                    <p><button class="button">Submit the form</button></p>
+                </form>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
