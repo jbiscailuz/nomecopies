@@ -127,8 +127,10 @@ img {
 .bioP {
     /* text-shadow: 2px 2px 8px rgb(68, 183, 88); */
     max-width: 40%;
+    /* border: 1px solid blue; */
     min-width: 30%;
-    margin-top: 5px;
     text-align: justify;
     margin: 0 auto;
+    margin-top: 50px;
+
 }
